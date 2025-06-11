@@ -1,0 +1,33 @@
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  backdrop-filter: blur(10px); /* ✅ adds blur effect */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.4
+  ); /* ✅ semi-transparent black for contrast */
+  z-index: 10; /* ensures it's above background */
+}
+
+.developer-name {
+  font-weight: bold;
+  color: #ff4081; /* you can change this to any color you like */
+}
+
+@media only screen and (max-width: 37em) {
+  #footer {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .developer-name {
+    display: block;
+    color: #26d47d;
+  }
+}

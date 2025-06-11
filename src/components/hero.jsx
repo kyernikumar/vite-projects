@@ -1,5 +1,6 @@
 // src/App.jsx
 import { useState } from "react";
+import "./Footer.css";
 
 const API_KEY = import.meta.env.VITE_OMDB_API_KEY;
 
@@ -18,12 +19,7 @@ function Hero() {
   };
 
   return (
-    <div
-      className='min-h-screen bg-cover bg-center bg-black text-white p-4'
-      style={{
-        backgroundImage: `url('https://analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg')`,
-      }}
-    >
+    <div className='text-white p-4'>
       <div className='max-w-xl mx-auto bg-black bg-opacity-70 p-6 rounded-lg shadow-lg mt-10'>
         <h1 className='text-3xl font-bold mb-4 text-center'>
           🎬 Movie Rating App
