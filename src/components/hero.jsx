@@ -1,6 +1,6 @@
 // src/App.jsx
 import { useState } from "react";
-import "./Footer.css";
+import "./footer.css";
 
 const API_KEY = import.meta.env.VITE_OMDB_API_KEY;
 
