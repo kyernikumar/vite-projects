@@ -19,7 +19,7 @@ function Hero() {
   };
 
   return (
-    <div className='text-white p-4'>
+    <div className='text-white p-5'>
       <div className='max-w-xl mx-auto bg-black bg-opacity-70 p-6 rounded-lg shadow-lg mt-10'>
         <h1 className='text-3xl font-bold mb-4 text-center'>
           🎬 Movie Rating App
