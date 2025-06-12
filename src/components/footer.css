@@ -5,19 +5,14 @@
   text-align: center;
   color: white;
   padding: 1rem;
-  backdrop-filter: blur(10px); /* ✅ adds blur effect */
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.4
-  ); /* ✅ semi-transparent black for contrast */
-  z-index: 10; /* ensures it's above background */
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 10;
 }
 
 .developer-name {
   font-weight: bold;
-  color: #ff4081; /* you can change this to any color you like */
+  color: #26d47d;
 }
 
 @media only screen and (max-width: 37em) {
@@ -28,6 +23,5 @@
 
   .developer-name {
     display: block;
-    color: #26d47d;
   }
 }
